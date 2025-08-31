@@ -237,6 +237,9 @@
 		} , { offset: '95%' } );
 	};
 	contentWayPoint();
+    $('.nav-item a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 
 	// magnific popup
 	$('.image-popup').magnificPopup({
